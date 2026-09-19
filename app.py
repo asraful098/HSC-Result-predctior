@@ -50,3 +50,5 @@ app = gr.Interface(
 )
 
 app.launch(share=True)
+
+print("demo") 
