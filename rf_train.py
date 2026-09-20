@@ -64,10 +64,7 @@ rf_model = RandomForestRegressor(
 # =====================
 # Full Pipeline
 # =====================
-rf_pipeline = Pipeline(steps=[
-    ('preprocessor', preprocessor),
-    ('model', rf_model)
-])
+
 
 # =====================
 # Train-test split
